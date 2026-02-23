@@ -1,0 +1,25 @@
+/* Grouping Selector: Apply to all the selector included */
+h1, h2 {
+    color: blueviolet;
+}
+
+
+/* Child Selector: Apply to direct child of left side */
+.box > p {
+    color: firebrick;
+}
+
+/* Descendant: Aplly to a descendant of left side */
+.box li {
+    color: blue;
+}
+
+/* Chaining: Apply where all selectors are true */
+li.done {
+    color: seagreen;
+}
+
+/* Combining Combiners */
+ul  p.done {
+    font-size: .5rem;
+}
